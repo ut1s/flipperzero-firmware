@@ -1,122 +1,49 @@
-# Flipper Zero Firmware
+# ut1s's Flipper firmware
 
-[![Discord](https://img.shields.io/discord/740930220399525928.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](http://flipperzero.one/discord)
+<img src="https://user-images.githubusercontent.com/110339660/187163324-7ad7edc7-107e-424d-9450-58408a90e4ee.png" width="200" />
 
-![Show me the code](https://habrastorage.org/webt/eo/m0/e4/eom0e4btudte7nrhnyic-laiog0.png)
+*This is a very cute image, isnt't it?* Generated with [DALL·E 2](https://openai.com/dall-e-2/)
 
-Welcome to [Flipper Zero](https://flipperzero.one/)'s Firmware repo!
-Our goal is to create nice and clean code with good documentation, to make it a pleasure for everyone to work with.
+
+Welcome to my fork of the official FlipperZero repo!
+It's a flipperzero-firmware repository by me but with some changes like plugins, with own graphics and more! (I hope :sweat_smile:)
+
+This repo will be merged from the official and from the non official firmwares to make an ultimate firmware including games and plugins.
+So in the most of the time I'll not really write codes but I'll **always** mention the creator of that part of the code. Soo if there is an issue then -I hope- most of the time it'll not be due to my code :sweat_smile:
+
+I hope it will be a weekly ~~(or sometimes montly)~~ updated firmware and I will the include those cool changes which made on that week ~~(/in that month)~~
+
+In the next days (or weeks) I'll update this ReadMe file to make it more ut1sish but til that I'll not change it very and just delete the for this non nessecary things.
 
 # Clone the Repository
 
 You should clone with 
 ```shell
-$ git clone --recursive https://github.com/flipperdevices/flipperzero-firmware.git
+$ git clone --recursive https://github.com/ut1s/flipperzero-firmware.git
 ```
 
 # Update firmware
 
-[Get Latest Firmware from Update Server](https://update.flipperzero.one/)
+I hope I can do releashes for this repo so you can easily just download the .dfu file and install with qFlipper but until then you can still use `fbt` command to build it!
 
-Flipper Zero's firmware consists of two components:
+# Fork changes
+*An always updating part of the ReadMe*
 
-- Core2 firmware set - proprietary components by ST: FUS + radio stack. FUS is flashed at factory and you should never update it.
-- Core1 Firmware - HAL + OS + Drivers + Applications.
+The parts from firmwares:
 
-They both must be flashed in the order described.
-
-## With offline update package
-
-With Flipper attached over USB:
-
-`./fbt flash_usb`
-
-Just building the package:
-
-`./fbt updater_package`
-
-To update, copy the resulting directory to Flipper's SD card and navigate to `update.fuf` file in Archive app. 
-
-## With STLink
-
-### Core1 Firmware
-
-Prerequisites:
-
-- Linux / macOS
-- Terminal
-- [arm-gcc-none-eabi](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
-- openocd
-
-One liner: `./fbt firmware_flash`
-
-## With USB DFU 
-
-1. Download latest [Firmware](https://update.flipperzero.one)
-
-2. Reboot Flipper to Bootloader
- - Press and hold `← Left` + `↩ Back` for reset 
- - Release `↩ Back` and keep holding `← Left` until blue LED lights up
- - Release `← Left`
-
-3. Run `dfu-util -D full.dfu -a 0`
-
-# Build on Linux/macOS
-
-Check out `documentation/fbt.md` for details on building and flashing firmware. 
-
-## macOS Prerequisites
-
-Make sure you have [brew](https://brew.sh) and install all the dependencies:
-```sh
-brew bundle --verbose
-```
-
-## Linux Prerequisites
-
-The FBT tool handles everything, only `git` is required.
-
-### Optional dependencies
-
-- openocd (debugging/flashing over SWD)
-- heatshrink (compiling image assets)
-- clang-format (code formatting)
-- dfu-util (flashing over USB DFU)
-- protobuf (compiling proto sources)
-
-For example, to install them on Debian, use:
-```sh
-apt update
-apt install openocd clang-format-13 dfu-util protobuf-compiler
-```
-
-heatshrink has to be compiled [from sources](https://github.com/atomicobject/heatshrink).
-
-## Compile everything
-
-```sh
-./fbt
-```
-
-Check `dist/` for build outputs.
-
-Use **`flipper-z-{target}-full-{suffix}.dfu`** to flash your device.
-
-## Flash everything
-
-Connect your device via ST-Link and run:
-```sh
-./fbt firmware_flash
-```
+~~under construction~~
+<!---
+##BadUSB thing
+A great user [dummy-decoy](https://github.com/dummy-decoy) made a program for PC and for Flipper so you can easily add any kind of keyboard layouts by copying the dummy-decoy's program created .kl files to the SD card and then just simply select it. Due to this `DUCKY_LANG` is not aviable for the scripts. (Just simply delete it form the first line :sweat_smile:) His repo for this is there: [the best way for this](https://github.com/dummy-decoy/flipperzero_badusb_kl)
+This part is from the [__UNLEASHED__ firmware](https://github.com/Eng1n33r/flipperzero-firmware/tree/dev/applications/bad_usb)
+--->
 
 # Links
 
-* Discord: [flipp.dev/discord](https://flipp.dev/discord)
-* Website: [flipperzero.one](https://flipperzero.one)
-* Kickstarter page: [kickstarter.com](https://www.kickstarter.com/projects/flipper-devices/flipper-zero-tamagochi-for-hackers)
-* Forum: [forum.flipperzero.one](https://forum.flipperzero.one/)
+~~under construction~~
 
 # Project structure
+*(I kept this part lol)*
 
 - `applications`    - Applications and services used in firmware
 - `assets`          - Assets used by applications and services
