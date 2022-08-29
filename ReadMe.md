@@ -32,6 +32,7 @@ I hope I can do releashes for this repo so you can easily just download the .dfu
 The parts from firmwares:
 
 ##BadUSB thing
+
 A great user [dummy-decoy](https://github.com/dummy-decoy) made a program for PC and for Flipper so you can easily add any kind of keyboard layouts by copying the dummy-decoy's program created .kl files to the SD card and then just simply select it. Due to this `DUCKY_LANG` is not aviable for the scripts. (Just simply delete it form the first line :sweat_smile:) His repo for this is there: [the best way for this](https://github.com/dummy-decoy/flipperzero_badusb_kl)
 This part is from the [__UNLEASHED__ firmware](https://github.com/Eng1n33r/flipperzero-firmware/tree/dev/applications/bad_usb)
 
