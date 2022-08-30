@@ -3,14 +3,18 @@
 - `about`               - Small About application that shows flipper info
 - `accessor`            - Wiegand server
 - `archive`             - Archive and file manager 
+- `arkanoid`            - Arkanoid game 
 - `bad_usb`             - Bad USB application
+- `barcode_generator`   - Barcode generator  plugin
 - `bt`                  - BLE service and application
 - `cli`                 - Console service and API
+- `clock_app`           - Clock app plugin
 - `crypto`              - Crypto cli tools
 - `debug_tools`         - Different tools that we use for debug
 - `desktop`             - Desktop service
 - `dialogs`             - Dialogs service: GUI Dialogs for your app
 - `dolphin`             - Dolphin service and supplementary apps
+- `doom`                - The DOOM game
 - `gpio`                - GPIO application: includes USART bridge and GPIO control
 - `gui`                 - GUI service and API
 - `ibutton`             - iButton application, onewire keys and more
@@ -19,20 +23,32 @@
 - `lfrfid`              - LF RFID application
 - `lfrfid_debug`        - LF RFID debug tool
 - `loader`              - Application loader service
+- `mandelbrot`          - Mandelbrot. You know those interesing things.
+- `meta`                - It says wich app is which or sg like that
+- `mouse_jiggler`       - Mouse Jiggler
+- `multi_converter`     - Expanded version of Dec/Hex Converter
+- `mousejacker`         - NRF24: Sniffer & MouseJacker
 - `music_player`        - Music player app (demo)
 - `nfc`                 - NFC application, HF rfid, EMV and etc
-- `notification`        - Notification service 
+- `notification`        - Notification service
+- `paint`               - Paint plugin
+- `picopass`            - Picopass reader
 - `power`               - Power service
 - `power_observer`      - Power debug tool
 - `rpc`                 - RPC service and API
 - `scened_app_example`  - C++ application example
 - `snake_game`          - Snake game application
+- `spectrum_analyzer`   - SubGHz spectrum analyzer 
 - `storage`             - Storage service, internal + sdcard
 - `storage_settings`    - Storage settings app
 - `subghz`              - SubGhz application, 433 fobs and etc
 - `system`              - System settings, tools and API
+- `tetris_game`         - Tetris!
+- `tictactoe_game`      - Easy tick tack toe
 - `tests`               - Unit tests and etc
 - `u2f`                 - U2F Application
 - `updater`             - Update service & application
+- `wav_player`          - Waw player plugin
 
 - `application.h`       - Firmware application list header
+- `ReadMe.md`           - This file
