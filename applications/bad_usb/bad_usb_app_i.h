@@ -14,10 +14,8 @@
 #include <gui/modules/widget.h>
 #include "views/bad_usb_view.h"
 
-#define BAD_USB_APP_BASE_FOLDER ANY_PATH("badusb")
-#define BAD_USB_APP_PATH_LAYOUT_FOLDER BAD_USB_APP_BASE_FOLDER "/layouts"
-#define BAD_USB_APP_SCRIPT_EXTENSION ".txt"
-#define BAD_USB_APP_LAYOUT_EXTENSION ".kl"
+#define BAD_USB_APP_PATH_FOLDER ANY_PATH("badusb")
+#define BAD_USB_APP_EXTENSION ".txt"
 
 typedef enum {
     BadUsbAppErrorNoFiles,
@@ -31,11 +29,9 @@ struct BadUsbApp {
     NotificationApp* notifications;
     DialogsApp* dialogs;
     Widget* widget;
-    Submenu* submenu;
 
     BadUsbAppError error;
     string_t file_path;
-    string_t keyboard_layout;
     BadUsb* bad_usb_view;
     BadUsbScript* bad_usb_script;
 };
@@ -43,5 +39,4 @@ struct BadUsbApp {
 typedef enum {
     BadUsbAppViewError,
     BadUsbAppViewWork,
-    BadUsbAppViewConfig,
 } BadUsbAppView;
