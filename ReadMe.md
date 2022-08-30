@@ -34,9 +34,8 @@ The parts from firmwares:
 ## BadUSB thing
 
 A great user [dummy-decoy](https://github.com/dummy-decoy) made a program for PC and for Flipper so you can easily add any kind of keyboard layouts by copying the dummy-decoy's program created .kl files to the SD card and then just simply select it. Due to this `DUCKY_LANG` is not aviable for the scripts. (Just simply delete it form the first line :sweat_smile:) His repo for this is there (download it to make your keyboard layout file): [the best way for this](https://github.com/dummy-decoy/flipperzero_badusb_kl)
-This part is from the [__UNLEASHED__ firmware](https://github.com/Eng1n33r/flipperzero-firmware/tree/dev/applications/bad_usb)
+This part is from the [dummy-decoy's firmware](https://github.com/dummy-decoy/flipperzero-firmware/tree/dev/applications/bad_usb)
 
-<!---
 ## SubGHz
 
 This part is from the [Unleashed firmware](https://github.com/Eng1n33r/flipperzero-firmware/tree/dev/applications/subghz) too. It means there is support for many rolling code protocols but the region restrictions are still there (btw I'm not sure :sweat_smile:)
@@ -60,6 +59,7 @@ This part is from the [Unleashed firmware](https://github.com/Eng1n33r/flipperze
 - Tetris (with fixes) [(by jeffplang)](https://github.com/jeffplang/flipperzero-firmware/tree/tetris_game/applications/tetris_game)
 - Tic Tac Toe (with fixes) [(by gotnull)](https://github.com/gotnull/flipperzero-firmware-wPlugins)
 
+<!---
 This is a comment. It won't seen on the page. I hope. You can prewrite the text here and after just get out of this comment.
 --->
 
