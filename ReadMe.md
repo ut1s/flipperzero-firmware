@@ -42,8 +42,9 @@ This part is from the [Unleashed firmware](https://github.com/DarkFlippers/flipp
 
 - Clock/Stopwatch ([By CompaqDisc, Stopwatch & Sound Alert By RogueMaster](https://gist.github.com/CompaqDisc/4e329c501bd03c1e801849b81f48ea61)) /w 12/24HR ([By non-bin](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/pull/254)) & Refactoring ([By GMMan](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/pull/256))
 - MultiConverter plugin [(by theisolinearchip)](https://github.com/theisolinearchip/flipperzero_stuff)
+- Metronome
 - Mouse Jiggler ([By Jacob-Tate](https://github.com/Jacob-Tate/flipperzero-firmware/blob/dev/applications/mouse_jiggler/mouse_jiggler.c))
-- Paint ([By n-o-T-I-n-s-a-n-e](https://github.com/n-o-T-I-n-s-a-n-e))
+- Paint ([By n-o-T-I-n-s-a-n-e](https://github.com/n-o-T-I-n-s-a-n-e/flipperzero-firmware/tree/420/applications/paint))
 - Pomodoro Timer ([by sbrin](https://github.com/sbrin/flipperzero_pomodoro))
 - Spectrum Analyzer (with changes) [(by jolcese)](https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer)
 - UPC-A Barcode generator plugin [(by McAzzaMan)](https://github.com/McAzzaMan/flipperzero-firmware/tree/UPC-A_Barcode_Generator/applications/barcode_generator)
