@@ -21,7 +21,7 @@ In the next days (or weeks) I'll update this ReadMe file to make it more ut1sish
 The parts from firmwares:
 
 ~~under construction as I add the things I'll update it~~
-<!---
+
 ## BadUSB thing
 
 A great user [dummy-decoy](https://github.com/dummy-decoy) made a program for PC and for Flipper so you can easily add any kind of keyboard layouts by copying the dummy-decoy's program created .kl files to the SD card and then just simply select it. Due to this `DUCKY_LANG` is not aviable for the scripts. (Just simply delete it form the first line :sweat_smile:) His repo for this is there (download it to make your keyboard layout file): [the best way for this](https://github.com/dummy-decoy/flipperzero_badusb_kl)
@@ -41,12 +41,15 @@ This part is from the [Unleashed firmware](https://github.com/DarkFlippers/flipp
 ## Plugins
 
 - Clock/Stopwatch ([By CompaqDisc, Stopwatch & Sound Alert By RogueMaster](https://gist.github.com/CompaqDisc/4e329c501bd03c1e801849b81f48ea61)) /w 12/24HR ([By non-bin](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/pull/254)) & Refactoring ([By GMMan](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/pull/256))
+- DAP Link [(by DrZlo13)[OFW]](https://github.com/flipperdevices/flipperzero-firmware/pull/1897)
+- Flipper Authenticator (Totp) [(by akopachov)](https://github.com/akopachov/flipper-zero_authenticator)
 - MultiConverter plugin [(by theisolinearchip)](https://github.com/theisolinearchip/flipperzero_stuff)
-- Metronome
+- Metronome [(by panki27)](https://github.com/panki27/Metronome)
 - Mouse Jiggler ([By Jacob-Tate](https://github.com/Jacob-Tate/flipperzero-firmware/blob/dev/applications/mouse_jiggler/mouse_jiggler.c))
 - Paint ([By n-o-T-I-n-s-a-n-e](https://github.com/n-o-T-I-n-s-a-n-e/flipperzero-firmware/tree/420/applications/paint))
 - Pomodoro Timer ([by sbrin](https://github.com/sbrin/flipperzero_pomodoro))
 - Spectrum Analyzer (with changes) [(by jolcese)](https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer)
+- Sub-GHz Playlist [(by darmiel)](https://github.com/darmiel/flipper-playlist)
 - UPC-A Barcode generator plugin [(by McAzzaMan)](https://github.com/McAzzaMan/flipperzero-firmware/tree/UPC-A_Barcode_Generator/applications/barcode_generator)
 - USB Keyboard ([by huuck](https://github.com/huuck/FlipperZeroUSBKeyboard))
 - WAV player plugin (fixed) [(OFW: DrZlo13)](https://github.com/flipperdevices/flipperzero-firmware/tree/zlo/wav-player)
@@ -63,6 +66,7 @@ This part is from the [Unleashed firmware](https://github.com/DarkFlippers/flipp
 - __Added my own animation!!__ It's a little DJ animation with a cute dolphin of course!
 - Hold Center to change Flipper idle animation. [Thanks to Zycenios](https://github.com/flipperdevices/flipperzero-firmware/commit/111786ef40e50a40d2e510595672b569d9b97bba) With changes by RogueMaster and pasted from [RogueMaster's firmware](https://github.com/RogueMaster/flipperzero-firmware-wPlugins) of course
 
+<!--
 This is a comment. It won't seen on the page. I hope. You can prewrite the text here and after just get out of this comment.
 --->
 
